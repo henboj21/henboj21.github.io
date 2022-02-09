@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Shadows+Into+Light&display=swap');
+
+
+body{
+	background: linear-gradient(180deg, rgba(157,145,193,1) 0%, rgba(133,135,183,1) 19%, rgba(34,95,140,1) 51%, rgba(0,9,176,1) 80%);
+}
+.first{
+	background-color: rgb(96, 113, 138);
+	height: 300px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: stretch;
+
+}
+head{
+	font-family: "Architects Daughter"
+}
+p{
+
+	background-color:rgb(90, 81, 117);
+	padding: 10px;
+	margin: 10px;
+	font-family: "Architects Daughter"
+
+}
+.second{
+ background-color: rgb(121, 145, 121);
+ height: 300px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.third{
+	height: 300px;
+	background-color: rgb(185, 194, 110);
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+img{
+	height: 150px;
+	}
+.fourth{
+	height: 300px;
+	background-color: rgb(117, 80, 86);
+	display: flex;
+	justify-content: space-around;
+	align-items: space-around;
+}
