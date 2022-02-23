@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&display=swap');
+
+body{
+	margin: 0px;
+}
+
+
+header{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("weepingwillow.jpg");
+	background-size: cover;
+	background-position: center;
+
+
+
+}
+
+header h1{
+	padding: 30px;
+	background-color: rgb(255,255,255,0.6);
+	border-radius: 20px;
+	font-family: "Indie Flower";
+
+} 
+main{
+	padding: 80px;
+	background: linear-gradient(180deg, rgba(189,255,190,1) 0%, rgba(153,184,134,1) 14%, rgba(56,128,43,0.8071603641456583) 51%, rgba(23,71,26,1) 80%);
+
+}
+main p{
+	column-count: 2;
+	color: white;
+	font-family: "Architects Daughter";
+
+}
+
+#info{
+	height: 300px;
+	background-color: lightgreen;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 80px;
+	font-family: "Indie Flower";
+}
+footer{
+	height: 400px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-image: url("weepingwillow2.jpg");
+	background-size: contain;
+	background-position:center;
+	border-radius: 20px;
+
+}
+
+footer p{
+	padding: 30px;
+	background-color: rgb(255,255,255,0.6);
+	border-radius: 20px;
+	font-family: "Architects Daughter";
+}
