@@ -8,19 +8,26 @@
 
 /*********General Styling**********/
 
-
-
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+:root{
+	scroll-behavior: smooth;
+}
+
+
+
 
 body{
 	margin: 0;
 	font-family: "Patrick Hand";
 	background-color: rgb(103, 128, 100);
+
 }
 /* Navigation */
 nav{
 	background-color: rgb(70, 97, 78);
-	display: flex; /* 	We need flexbox because..*/
+	display: flex; /* 	We need flexbox because we want to have space between our images..*/
 	justify-content: space-between;
 	align-items: center;
 	padding: 30px;
@@ -59,7 +66,6 @@ header{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url("Header-background.jpg");
 	background-position: center;
 	background-size: cover;
 
@@ -86,6 +92,27 @@ main {
  	color: black;
  	font-family:  "Patrick Hand";
  }
+
+ /*section*/
+ section {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ }
+ section .left{
+ width: 50%;
+ background-color: rgb(79, 99, 85);
+ padding:30px ;
+
+ }
+ section .right {
+width: 50%;
+background-color: rgb(72, 99, 80);
+ padding: 30px;
+
+ }
+
+
 /* Footer */
 footer{
 	display: flex;
@@ -93,4 +120,36 @@ footer{
 	align-items: center;
 	padding: 30px;
 	background-color: rgb(41, 56, 40);
+}
+
+/**************Home page styling ********************/
+#home header{
+	background-image: url("Header-background.jpg");
+
+}
+#home #pictures {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 30px;
+}
+#home #pictures img{
+	width: 200px;
+	margin: 10px;
+	border: 2px black;
+}
+
+/**************Contact page styling*****************/
+#contact header{
+	background-image: url("contact-header-background.jpg"); 
+}
+#contact main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 60px;
+}
+#contact main ul{
+	color: grey;
 }
