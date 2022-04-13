@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background:  radial-gradient(circle, rgba(136,126,150,1) 21%, rgba(111,102,117,1) 55%, rgba(75,69,88,1) 100%);
+ font-family: Roboto;
+
+}
+article .image {
+	height: 180px;
+	width: 300px;
+	background-image: url("bbybreathh.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 20px;
+ 
+
+}
+
+article .text {
+	height: 180px;
+	width: 300px;
+	background-color: rgb(137, 133, 148);
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-direction: column;
+ 
+}
+article .text .header {
+	text-transform: uppercase;
+}
+
+article .text .footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+ 
+ article .box{
+ 	background-color: red;
+ 	color: white;
+ 	text-transform: uppercase;
+ 	padding: 6px;
+ 	position: absolute;
+ 	left: 0px;
+ 	top: 189px;
+ }
+ article{
+ 	position: relative;
+ 	
+
+ }
